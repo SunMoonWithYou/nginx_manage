@@ -44,6 +44,9 @@ wget -qO- https://raw.githubusercontent.com/SunMoonWithYou/nginx_manage/main/ins
 6. 深度卸载
 0. 退出
 ```
+配置文件所在目录
+<img width="919" height="443" alt="image" src="https://github.com/user-attachments/assets/bc0930dc-f137-42b0-9662-4b4acc70a463" />
+
 
 - **环境初始化**：首次使用建议先执行，自动安装并配置好 Nginx 环境
 - **添加站点**：输入域名，选择 SSL 方式，脚本会自动生成配置并启用站点
