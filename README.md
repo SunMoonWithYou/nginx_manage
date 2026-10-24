@@ -17,17 +17,12 @@
 
 将 `yourname/yourrepo` 替换为你的 GitHub 用户名和仓库名。
 
-### 使用 curl
+### 安装脚本
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/SunMoonWithYou/nginx_manage/main/install.sh | sudo bash
+bash <(curl -fsSL https://raw.githubusercontent.com/SunMoonWithYou/nginx_manage/main/install.sh)
 ```
 
-### 使用 wget
-
-```bash
-wget -qO- https://raw.githubusercontent.com/SunMoonWithYou/nginx_manage/main/install.sh | sudo bash
-```
 
 > 如果默认分支不是 `main`，请将命令中的 `main` 替换为 `master` 或其他分支名。
 
